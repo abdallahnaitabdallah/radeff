@@ -1,6 +1,7 @@
 # Radeff
 
-Radeff App is a full-stack application that offers a platform for users to request reclamation services. The backend is built using Django REST Framework with authentication handled by Djoser. The frontend consists of a web application developed in React.js, and a mobile app developed in React Native.
+Radeff App is a full-stack application that offers a platform for users to request reclamation services. The backend is built using Django REST Framework with authentication handled by Djoser.
+The frontend consists of a web application developed in React.js, and a mobile app developed in React Native.
 
 ## Table of Contents
 
@@ -17,7 +18,8 @@ Radeff App is a full-stack application that offers a platform for users to reque
 
 ## Project Overview
 
-Radeff App aims to connect users in need of reclamation services with service providers. Users can create service requests, view available providers, and track the progress of their requests. Service providers can access requests, accept or reject them, and update their status.
+Radeff App aims to connect users in need of reclamation services with service providers. Users can create service requests, view available providers, and track the progress of their requests. 
+Service providers can access requests, accept or reject them, and update their status.
 
 ## Features
 
@@ -68,10 +70,13 @@ npm install
 npx expo start
 
 Backend (Django REST Framework)
-The backend provides the API for managing users, service requests, and providers. The api app contains the necessary endpoints, serializers, and views.
+The backend provides the API for managing users, service requests, and providers.
+The api app contains the necessary endpoints, serializers, and views.
 
 Frontend (React.js)
-The React.js frontend includes components for user registration, login, request creation, and request tracking. It communicates with the backend API to retrieve and update data.
+The React.js frontend includes components for user registration, login, request creation, and request tracking.
+It communicates with the backend API to retrieve and update data.
 
 Mobile App (React Native)
-The React Native mobile app offers a seamless user experience for both service requesters and providers. It leverages native device features while interacting with the backend API for data synchronization.
+The React Native mobile app offers a seamless user experience for both service requesters and providers.
+It leverages native device features while interacting with the backend API for data synchronization.

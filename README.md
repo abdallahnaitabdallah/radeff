@@ -63,7 +63,7 @@ npm install
 npm start
 
 Set up the React Native mobile app:
-cd mobile-app/
+cd native/
 npm install
 npx expo start
 
@@ -75,11 +75,3 @@ The React.js frontend includes components for user registration, login, request 
 
 Mobile App (React Native)
 The React Native mobile app offers a seamless user experience for both service requesters and providers. It leverages native device features while interacting with the backend API for data synchronization.
-
-Contributing
-Contributions to this project are welcome! If you find any issues or want to add new features, please follow the guidelines outlined in the CONTRIBUTING.md file.
-
-License
-This project is licensed under the MIT License.
-
-Remember to customize the placeholders like "Reclamation Service App,
